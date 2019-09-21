@@ -1,0 +1,537 @@
+#fixedBar {
+  position: fixed;
+  top:0;
+  right:0;
+  left: 0;
+  height:60px;
+  background-color: white;
+  z-index: 2;
+}
+
+#fixedBar .logo img{
+  position:absolute;
+  left: 0;
+  margin:15px 0 20px 40px;
+  width: 50px;
+  height: 30px;
+}
+
+#fixedBar .iconsHead{
+  position:absolute;
+  right:0;
+  display: inline-block;
+  height: 60px;
+}
+#fixedBar .serch,
+#fixedBar .globe{
+  color:#508DC6;
+  font-size: 28px;
+  padding:0 15px 0 15px; 
+}
+
+#fixedBar .icon_menu{
+  color: white;
+  background-color: #3160AB;
+  font-size: 20px;
+  padding: 20px;
+  display: inline-block;
+  vertical-align: baseline;
+  margin-left: 20px;
+}
+
+
+
+.siteTop{
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+
+.siteTop .pageNav{
+  margin:0 0 30px 220px;
+}
+.siteTop .pageNav p,
+.siteTop .pageNav p a{
+  font-size: 12px;
+  line-height: 1.1;
+  color: #999999;
+  text-decoration:none;
+}
+
+.imageMain{
+  position: relative;
+  z-index: 1;
+}
+
+.imageMain .textImage_a{
+  position: absolute;
+  top: 20px;
+  left: 0;
+  color: white;
+  margin-left: 220px;
+  font-size: 18px;
+  line-height:1.6; 
+}
+.imageMain .textImage_b{
+  position: absolute;
+  top: 70px;
+  left: 0;
+  color: white;
+  margin-left: 220px;
+  font-size: 24px;
+  line-height: 1.8;
+}
+
+.imageMain .imageStrategyNRI img{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+#pageBodyMain {
+  width: 55%;
+  margin:auto;
+}
+
+#pageBodyMain .snsIcons{
+  display: inline;
+  text-align: right;
+}
+
+#pageBodyMain .snsIcons .snsText{
+  display:inline;
+  vertical-align: middle;
+  font-size: 10px;
+  line-height: 1.1;
+  color:#666666;
+}
+#pageBodyMain .snsIcons .snsBar .iconFacebook{
+  color:#3C5A99;
+  font-size: 1.8em;
+  display:inline-block;
+  vertical-align: middle;
+  margin-left:  15px;
+}
+#pageBodyMain .snsIcons .snsBar .iconTwitter{
+  color:#1DA1F2;
+  font-size:1.8em;
+  display:inline-block;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+
+#pageBodyMain .snsIcons .snsBar .iconLinkedin{
+  color:#0D73B2;
+  font-size:1.8em;
+  display:inline-block;
+  vertical-align: middle;
+  margin-left: 15px;
+}
+
+#pageBodyMain .articleContent{
+  padding-top:50px;
+  margin-bottom: 40px;
+}
+#pageBodyMain .pageBodyMain_text{
+  margin-bottom:40px;
+}
+
+#pageBodyMain .pageBodyMain_text .test{
+  width:25px;
+  height: 25px;
+  display: inline-block;
+  border:1px solid white;
+  background-image: linear-gradient(45deg,#63A8E1 15%, #083EA6 15%,#083EA6 70%,#63A8E1 70%, #63A8E1);
+  vertical-align: text-top;
+  box-sizing: border-box;
+  display:inline-block;
+  margin-right: 5px;
+}
+#pageBodyMain .pageBodyMain_text h2{
+  margin:0 0 40px 0;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+#pageBodyMain .articleContent .pageBodyMain_text p{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 1.5px;
+  color:#333333;
+}
+#pageBodyMain .articleContent .articleImage{
+  display:inline-block;
+  text-align: center;
+}
+
+#pageBodyMain .articleContent .articleImage img{
+  width: 100%;
+}
+
+
+#pageBodyMain .journalPDF{
+  width: 40%;
+  background-color: #095BAC;
+  font-size: 16px;
+  line-height: 1.429;
+  margin:auto;
+}
+
+#pageBodyMain .journalPDF h3{
+  font-weight: normal;
+  font-size: 16px;
+}
+
+#pageBodyMain .journalPDF a{
+  color: white;
+  text-decoration:none;
+  padding:15px 10px;
+  display: inline-block;
+  position:relative;
+  text-align: center;
+}
+
+#pageBodyMain .journalPDF a::before{
+  content: ">";
+  font-size: 10px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  
+}
+
+#pageBodyMain .linkPages{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 30px;
+}
+
+#pageBodyMain .linkPages p{
+  display: inline-block;
+}
+
+#pageBodyMain .linkPages .linkBusinessModel span{
+  margin-right:10px;
+}
+
+#pageBodyMain .linkPages .linkHumanResource span{
+  margin-left:10px;
+}
+
+#pageBodyMain .linkPages a{
+  text-decoration: none;
+  vertical-align: middle;
+  color: #0C419A;
+}
+
+#pageBodyMain .linkPages a:hover{
+  text-decoration: underline;
+}
+#pageBodyMain .linkPages span{
+  vertical-align: top;
+}
+#pageBodyMain .strengthNRI{
+  padding:10px 0 25px 0;
+  background-color:#DEECF8;
+  margin-bottom:50px;
+  display: inline-block;
+}
+
+#pageBodyMain .flexboxCaption{
+  margin-left: 20px;
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  color: #333333;
+}
+
+
+#pageBodyMain .strengthNRI .flexWrap{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*これって中央揃えしたいものの親要素にflex、子要素にjustify-contentかけるんじゃ・・・*/
+}
+
+#pageBodyMain .strengthNRI .flexWrap .box{
+  width:30%;
+  margin:0 10px 20px 10px ;
+  box-sizing: border-box;
+}
+
+#pageBodyMain .strengthNRI .flexWrap .box p{
+  margin:0;
+  font-size: 15px;
+  line-height: 1.429;
+}
+
+#pageBodyMain .strengthNRI .flexWrap .box a{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #0C419A;
+  background-color :white;
+  height: 50px;
+  border:1px solid #CCCCCC;
+  padding:10px 25px;
+  text-decoration: none;
+  position: relative;
+}
+
+#pageBodyMain .strengthNRI .flexWrap .box a::before{
+  content: ">";
+  left: 10px;
+  font-size: 10px;
+  position: absolute;
+  color: #291E1B;
+}
+
+
+#pageMainSub{
+  width: 1000px;
+  margin: auto;
+}
+
+#pageMainSub .infoBody{
+  margin-top:100px;
+  margin-bottom: 80px;
+  border: solid black;
+  border-width: 1.5px 0 0 0;
+}
+
+#pageMainSub .infoNRI{
+  border: dotted #CCCCCC;
+  border-width: 0 0 1px 0 ;
+  margin-top:0;
+  margin-bottom:0;
+  padding: 30px 0 40px 0;
+  color:#333333;
+  font-size: 20px;
+}
+
+#pageMainSub .infoBody .infoContent{
+  border: dotted #CCCCCC;
+  border-width: 0 0 1px 0;
+  padding-top:30px;
+}
+
+#pageMainSub .infoBody .infoContent .menuTitle{
+  display: block;
+  margin-top:0;
+  margin-bottom:0;
+  color:#333333;
+}
+
+#pageMainSub .infoBody .infoContent .menu ul{
+  margin-top:0;
+  margin-bottom:0;
+  padding:0 0 40px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+#pageMainSub .infoBody .infoContent .menu li{
+  list-style: none;
+  display: block;
+  font-size: 14px;
+  line-height: 1.429;
+  width: 25%;
+  margin-top: 25px;
+}
+
+#pageMainSub .infoBody .infoContent .menu li a{
+  display: inline-block;
+  text-decoration: none;
+  color:#3160AB;
+  vertical-align: middle;
+}
+
+#pageMainSub .infoBody .infoContent .menu li a::before{
+  content: ">";
+  font-size: 10px;
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: top;
+  color: #766F6D;
+}
+
+#pageMainSub .infoBody .infoContent .menu li a:hover{
+  text-decoration: underline;
+}
+
+#pageMainSub .backPage{
+  margin-bottom: 80px;
+}
+
+#pageMainSub .backPage a{
+  text-decoration:none;
+  color:#3160AB;
+}
+
+#pageMainSub .backPage a:hover{
+  text-decoration: underline;
+}
+
+#pageMainSub .backPage a::before{
+content: "<";
+font-size: 10px;
+margin-right: 10px;
+display: inline-block;
+vertical-align: top;
+color: #766F6D;
+}
+/*Follow Us*/
+
+.followIncertion{
+  padding:20px 0;
+  border:solid #999999;
+  border-width:1.5px 0 1.5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.followIncertion .followText{
+  font-size: 18px;
+  line-height: 1.5;
+  color:#095BAC;
+  font-weight: bold;
+}
+
+.followIncertion a{
+  text-decoration: none;
+}
+.followIncertion  .iconFacebook{
+  margin-left: 40px;
+  display: inline;
+  vertical-align: middle;
+  color:#3C5A99;
+}
+.followIncertion .iconTwitter{
+  margin-left: 40px;
+  display: inline;
+  vertical-align: middle;
+  color:#1DA1F2;
+}
+.followIncertion .iconLinkedin{
+  margin-left: 40px;
+  display: inline;
+  vertical-align: middle;
+  color:#0D73B2;
+}
+
+
+
+#pageBottom{
+  width: 1000px;
+  margin: auto;
+}
+
+#pageBottom .additionalInfo{
+  margin-top: 0;
+  padding-top: 30px;
+  padding-bottom:40px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#pageBottom .additionalInfo .culumnFoot{
+  margin:0 auto;
+  width:25%;
+}
+
+
+#pageBottom .additionalInfo .culumnFoot .additionalInfoTitle {
+  padding:15px 0;
+  border:dotted #CCCCCC;
+  border-width: 1px 0 1px 0;
+  color:#666666;
+  margin: 0 0 15px 0;
+  font-weight: bold;
+}
+
+
+#pageBottom .additionalInfo .culumnFoot .additionalInfoTitle a::before{
+  content: ">";
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 1.1;
+}
+
+#pageBottom .additionalInfo .culumnFoot ul{
+  padding-left: 0;
+  margin:0;
+}
+
+#pageBottom .additionalInfo .culumnFoot ul li{
+  list-style: none;
+  margin-top:20px;
+  margin-bottom: 20px;
+  font-size:14px;
+  line-height: 1.4;
+}
+
+#pageBottom .additionalInfo .culumnFoot a{
+  color:#666666;
+  text-decoration: none;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+#pageBottom .additionalInfo .culumnFoot ul li a::before{
+  content: ">";
+  font-size: 10px;
+  vertical-align: top;
+  margin-right: 10px;
+  color: #766F6D;
+  display: inline-block;
+}
+/*memo :display:inlineだと、hover時にアンダーライン打ち消しを無視して表示されるが、inline-blockに変更すると、アンダーライン表示されなくなった。なぜ？ */
+#pageBottom .additionalInfo .culumnFoot a:hover{
+  text-decoration: underline;
+}
+
+#pageBodyFoot{
+  width: 1000px;
+  margin: auto;
+}
+
+#pageBodyFoot .menuFootContent ul{
+  display: flex;
+  padding: 0;
+  margin: auto;
+}
+#pageBodyFoot .menuFootContent li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 0 15px;
+  border: solid #999999;
+  border-width: 0 1px 0 0;
+}
+
+#pageBodyFoot .menuFootContent li:first-child{
+  padding-left: 0;
+}
+
+#pageBodyFoot .menuFootContent li:last-child{
+  border-right: none;
+}
+
+#pageBodyFoot .menuFootContent ul a{
+  text-decoration: none;
+  color: #999999;
+  font-size:12px;
+}
+
+#pageBodyFoot .menuFootContent ul a:hover{
+  text-decoration: underline;
+}
+
+#pageBodyFoot p{
+  font-size: 8px;
+  margin-top: 20px;
+}
